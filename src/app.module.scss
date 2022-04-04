@@ -1,0 +1,21 @@
+.mainContainer {
+  padding: 30px;
+}
+.header {
+  display: flex;
+  margin-bottom: 20px;
+  button {
+    background-color: #e3edf7;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: black;
+    margin: 20px;
+    padding: 0 20px;
+    &:hover {
+      background-color: lighten(#e3edf7, 3%);
+      color: #6d7f8f;
+    }
+  }
+}
